@@ -7,24 +7,31 @@ footer {
     max-width: 760px;
     margin: 0 auto;
     font-family: "Poppins";
+    border-radius: 25px;
 }
   img {
     max-width: 75%;
+    margin-left: 30px;
+    box-shadow: 3px 3px 10px black;
   }
 
 h1{
     color: white;
     text-align: center;
-    padding: 10px;
-    font-size: 1.5em;
+    padding: 15px;
+    font-size: 3em;
 }
 
 h2{
-  font-size: 1em;
+  font-size: 2em;
+  text-shadow: 2px 2px 5px black;
+}
+
+h3{
+    color: white;
 }
 
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -38,18 +45,19 @@ header {
     grid-gap: 1em;
     align-items: center;
     padding: 20px;
-    background-color: #023e8a;  
+    background-color: #06425C;  
 }
 ul {
     font-family: "Poppins";
   }
 footer{
     padding: 20px;
-    background-color: #023e8a; 
+    background-color: #06425C; 
     color: white;  
     text-align: center;
+    border-radius: 25px;
 }
 
-#LastUpdate {
-    color: #FFD770
+div {
+    color: #fae588;
 }

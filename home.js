@@ -7,4 +7,4 @@ let currentdate = document.lastModified;
 
 console.log(currentdate);
 
-document.querySelector('div').textContent = currentdate
+document.querySelector('div').textContent = ('Last Modified: ' + currentdate);
