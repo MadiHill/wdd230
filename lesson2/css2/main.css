@@ -79,3 +79,47 @@ div {
     padding-bottom: 15px; 
     margin-top: -20px;
 }
+
+
+@media screen and (min-width: 700px) {
+    main {
+        display: grid;
+        grid-gap: 45px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .principle {
+        padding-left: 35px;
+        font-size: 1.8em;
+    }
+
+    h3, a {
+        padding-left: 35px;
+    }
+
+    p {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+   main {
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+
+    .principle {
+        padding-left: 20px;
+        font-size: 1.8em;
+    }
+
+    h3, a {
+        padding-left: 20px;
+    }
+
+    p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
