@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Reem+Kufi+Ink&display=swap');
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+p {
+    font-family: 'Inter Tight', sans-serif;
+    padding: 15px;
+
+}
+
+header{
+    background-color: #305F72;
+    height: 60px;
+}
+
+
+h1 {
+    padding: 15px;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+h2{
+text-align: center;
+font-size: 2em;
+color: #8F7338;
+}
+
+
+p {
+    color: #011F26;
+}
+
+li {
+    margin-bottom: 18px;
+    margin-top: 18px;
+    }
+
+
+a:hover {
+    color: #8F7338;
+  }
+  nav a {
+      color: #AFD1D8;
+      
+  }  
+  nav ul {
+      list-style: none; /* removes the bullets! */
+      text-decoration: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(4em, 1fr)); 
+      font-family: 'Reem Kufi Ink', sans-serif;
+      margin-left: 140px;
+  }
+
+  img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #305F72;
+    --secondary-color: #AFD1D8;
+    --accent1-color: #8F7338;
+    --accent2-color: #011F26;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Inter Tight', sans-serif;
+  }
+  .colors th {
+    background-color: #d3d3d3;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+    color: white;
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+    color: white;
+  }
+  
+  p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+  }
+
+  footer{
+    background-color: #8F7338;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+}
+
+.copyright {
+    color: white;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+  

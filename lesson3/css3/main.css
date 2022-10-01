@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Reem+Kufi+Ink&display=swap');
+
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+p {
+    font-family: 'Inter Tight', sans-serif;
+    padding: 15px;
+
+}
+
+header{
+    background-color: #305F72;
+}
+
+footer{
+    background-color: #8F7338;
+}
+
+h1 {
+    padding: 15px;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+h2{
+text-align: center;
+font-size: 2em;
+color: #8F7338;
+}
+
+p {
+    color: #011F26;
+}
+
+li {
+margin-bottom: 20px;
+}
+
+.copyright {
+    color: white;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+a:hover {
+    color: #8F7338;
+  }
+  nav a {
+      color: #AFD1D8;
+      
+  }  
+  nav ul {
+      list-style: none; /* removes the bullets! */
+      text-decoration: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(4em, 1fr)); 
+      font-family: 'Reem Kufi Ink', sans-serif;
+      margin-left: 140px;
+  }
+
+  img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
