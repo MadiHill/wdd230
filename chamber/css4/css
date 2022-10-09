@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Reem+Kufi+Ink&display=swap');
+
+header {
+    background-color: #305F72;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+h1, h2 {
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+
+h3{
+    font-family: 'Inter Tight', sans-serif;
+    padding: 10px;
+}
+
+.footertopinfo {
+    color: white;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    text-align: center;
+}
+
+.main-name {
+    font-size: 1.2em;
+    text-align: left;
+    color: white;
+    grid-column: 2/4;
+    margin-left: 0px;
+    grid-row: 1/2;
+}
+
+.secondtitle {
+text-align: left;
+font-size: .8em;
+color: white;
+margin-top: -10px;
+grid-column: 2/5;
+margin-left: 0px;
+grid-row:2/3;
+}
+
+footer{
+    background-color: #8F7338;
+    width: 100%;
+}
+
+.fblogo{
+    display: block;
+    margin-right: -25px;
+    margin-left: auto;
+    width: 50%;
+    grid-column: 4/5;
+    grid-row: 1/2; 
+    padding-top: 5px;
+}
+
+.linkedinlogo {
+    display: block;
+    margin-right: -5px;
+    margin-left: auto;
+    width: 50%;
+    grid-column: 5/6;
+    grid-row: 1/2; 
+    padding-top: 5px;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    grid-column: 1/2;
+    margin-top: 10px;
+}
+
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #011F26;
+}
+
+nav {
+    grid-column: 6/7;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    background-color: #AFD1D8
+}
+
+nav ul.open {display:block}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #011F26;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #305F72;
+    color: white;
+}
+
+.date {
+    font-family: 'Inter Tight', sans-serif;
+    color: #011F26;
+    grid-column: 1/7;
+    grid-row: 5/6;
+    background-color: white;
+    font-size: .9em;
+    height: 30px;
+    padding-top: 10px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright {
+    color: white;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    text-align: center;
+    font-size: .9em; 
+
+}
+
+.footertopinfo {
+    color: white;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 1.2em;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    margin-top: -8px;
+}
+
+.info {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: .9em;
+}
+
+.logoimage{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%; 
+    padding-top: 10px;
+}
+
+p a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter Tight', sans-serif; 
+}
+
+p a:hover{
+    color: #011F26;
+}
+
+.name {
+    color: white;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+    font-size: .9em;
+    margin-top: -5px;
+}
+
+.myinfo {
+    color: white;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+    font-size: .8em; 
+    margin-top: -10px;
+}
+
+.last {
+    color: white;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+    font-size: .8em; 
+    margin-top: -5px;
+    padding-bottom: 5px;
+}
+
+.spotlights {
+    background-color:#AFD1D8; 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    height: 200px;
+
+}
+
+.sp1, .sp2{
+    background-color: white;
+    width: 80%;
+    height: 80px;
+
+}
+
+
+
+section {
+    background-color:#AFD1D8;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+
