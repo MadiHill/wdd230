@@ -6,24 +6,27 @@
     <title>Helena City Chamber</title>
     <meta name="description" content="Helena City Chamber Site. Made for WDD230 Fall Semester of 2022 at Brigham Young University - Idaho">
     <link rel="stylesheet" href="css4/css">
+    <link rel="shortcut icon" href="images4/favicon.png">
 
 
 </head>
 <body>
     <header>
-            <img src="images4/chamberlogo.png" alt="Chamber Logo">
-            <h1 class="main-name">Helena City</h1>
-            <h2 class="secondtitle">Chamber of Commerce</h2>
-            <p class="date"></p>
+        <div class="logotop">
+        <img class="logotop" src="images4/chamberlogo.png" alt="Chamber Logo">
+    </div>
+        <h1 class="main-name">Helena City</h1>
+        <h2 class="secondtitle">Chamber of Commerce</h2>
+        <p class="date"></p>
 
         <div class="fblogo">
             <a href="https://www.facebook.com/">
-            <img src="images4/fblogo.png" alt="Facebook Logo">
+                <img class="fblogo" src="images4/fblogo.png" alt="Facebook Logo">
             </a>
-            </div>
+        </div>
             <div class="linkedinlogo">
                 <a href="https://www.linkedin.com/feed/">
-            <img src="images4/linkedinlogo.png" alt="LinkedIn Logo">
+            <img class="linkedinlogo" src="images4/linkedinlogo.png" alt="LinkedIn Logo">
         </a>
         </div>
         <nav>
@@ -38,12 +41,14 @@
     </header>
     <main>
         <section class="hero">
-            <h3>Helena City Chamber of Commerce <br>Join Now!</h3>
+            <img class="helenacitypic" src="images4/helenacity.jpeg" alt="Helena, MT Overview Picture">
+            <h2 class="welcometext">Welcome to Helena</h2>
+            <button type="button" class="join">Join the Chamber</button>
         </section>
         <section class="event">
             <h3>Event</h3>
         </section>
-        <section class="Weather">
+        <section class="weather">
             <h3>Weather</h3>
         </section>
         <section class="newsrelease">
@@ -56,25 +61,37 @@
         <section class="sp2">
             <h3>Spotlight 2</h3>
         </section>
+        <section class="sp3">
+            <h3>Spotlight 3</h3>
+        </section>
+        <section class="joinsection">
+            <h3>Join</h3>
+        </section>
     </div>
 </main>
 <footer>
-    <div class="footertopinfo">
-        <div class="logoimage">
-        <img src="images4/chamberlogo.png" alt="Chamber Logo">
-        </div>
-    <h2 class="footer-title">Helena City Chamber of Commerce</h2>
-    <p class="info">415 Main Street<br>Helena, MT 59601</p>
-    <p class="info">info@helenacitychamber.org</p>
-    <p class="info">(406) 750-2947</p>
-    <p class="info"><a href="https://www.google.com/maps/search/?api=1&query=Helena%2C+Helena%2C+MT%2C+us&query_place_id=ChIJTdvH7Q9RQ1MRFPf943EdTCE">Location Map</a></p>
+    <div class="logo-image">
+        <img class="logo-image" src="images4/chamberlogo.png" alt="Chamber Logo">
+    </div>
+        <div class="name-address">
+        <h2 class="footer-title">Helena City Chamber of Commerce</h2>
+        <p class="info1">415 Main Street<br>Helena, MT 59601</p>
+    </div>
+    <div class="phone-email">
+        <p class="info2">info@helenacitychamber.org</p>
+        <p class="info3">(406) 750-2947</p>
+        <p class="info4">
+            <a href="https://www.google.com/maps/search/?api=1&query=Helena%2C+Helena%2C+MT%2C+us&query_place_id=ChIJTdvH7Q9RQ1MRFPf943EdTCE">Location Map</a>
+        </p>
     </div>
     <hr>
-    <p class="copyright">&copy;<span class="year"></span> - Helena City Chamber of Commerce </p>
-    <p class="name">Madison Hill</p>
-    <p class="myinfo">WDD 230 Project</p>
-    <p class="last"></p>
-  </footer>
+    <div class="copyright-row">
+        <p class="copyright">&copy;<span class="year"></span> - Helena City Chamber of Commerce </p>
+        <p class="name">Madison Hill</p>
+        <p class="myinfo">WDD 230 Project</p>
+        <p class="last"></p>
+    </div>
+</footer>
   <script src="script4/script.js"></script>
 </body>
 </html>

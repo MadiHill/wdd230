@@ -7,7 +7,7 @@ header {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: auto; 
 }
 
 h1, h2 {
@@ -38,10 +38,10 @@ h3{
 text-align: left;
 font-size: .8em;
 color: white;
-margin-top: -10px;
 grid-column: 2/5;
 margin-left: 0px;
 grid-row:2/3;
+margin-top: -30px;
 }
 
 footer{
@@ -49,33 +49,32 @@ footer{
     width: 100%;
 }
 
-.fblogo{
+img.fblogo {
     display: block;
     margin-right: -25px;
     margin-left: auto;
     width: 50%;
     grid-column: 4/5;
     grid-row: 1/2; 
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
-.linkedinlogo {
+img.linkedinlogo {
     display: block;
     margin-right: -5px;
     margin-left: auto;
-    width: 50%;
+    width: 55%;
     grid-column: 5/6;
     grid-row: 1/2; 
-    padding-top: 5px;
+    padding-top: 8px;
 }
 
-img {
+img.logotop {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 80%;
+    width: 100%;
     grid-column: 1/2;
-    margin-top: 10px;
+    grid-row: 1/3;
+    padding-top: 5px;
 }
 
 
@@ -129,31 +128,34 @@ nav ul li a:hover {
     margin-right: auto;
 }
 
+footer {
+    text-align: center;
+    color: white;
+}
+
 .copyright {
     color: white;
     font-family: 'Reem Kufi Ink', sans-serif;
-    text-align: center;
     font-size: .9em; 
 
 }
 
 .footertopinfo {
     color: white;
-    text-align: center;
 }
 
 .footer-title {
     font-size: 1.2em;
     font-family: 'Reem Kufi Ink', sans-serif;
-    margin-top: -8px;
+    margin-top: -10px;
 }
 
-.info {
+.info1, .info2, .info3, .info4 {
     font-family: 'Inter Tight', sans-serif;
     font-size: .9em;
 }
 
-.logoimage{
+img.logo-image {
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -174,17 +176,13 @@ p a:hover{
 .name {
     color: white;
     font-family: 'Inter Tight', sans-serif;
-    text-align: center;
     font-size: .9em;
-    margin-top: -5px;
 }
 
 .myinfo {
     color: white;
     font-family: 'Inter Tight', sans-serif;
-    text-align: center;
     font-size: .8em; 
-    margin-top: -10px;
 }
 
 .last {
@@ -192,8 +190,7 @@ p a:hover{
     font-family: 'Inter Tight', sans-serif;
     text-align: center;
     font-size: .8em; 
-    margin-top: -5px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .spotlights {
@@ -213,6 +210,14 @@ p a:hover{
 
 }
 
+.sp3{
+    display: none;
+}
+
+.joinsection{
+    display: none;
+}
+
 
 
 section {
@@ -223,3 +228,427 @@ section {
     height: 100px;
 }
 
+
+
+.join {
+    background-color: #AFD1D8;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    color: #011F26;
+    border-radius: 15px;
+    padding: 15px 17px;
+    font-size: 15px;
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    bottom: 580px;
+    border:none;
+}
+
+.hero {
+    margin-top: 10px;
+}
+
+.event {
+    margin-top: 120px;
+
+}
+
+.welcometext{
+    color: #011F26;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    bottom: 650px;
+    font-size: 1.8em;
+}
+.helenacitypic {
+    width: 100%;
+    height: 200px;
+}
+
+@media screen and (min-width: 700px) {
+    main {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .hero {
+        grid-column: 1/9;
+        margin-top: 20px;
+        grid-row: 1/3;
+        height: 220px;
+    }
+
+    .helenacitypic {
+        width: 100%;
+        height: 220px;
+    }
+
+    .welcometext {
+        left: 80px;
+        bottom: 810px;
+        font-size: 2.2em;
+    }
+
+    .join {
+        font-size: 20px;
+        right: 70px;
+        bottom: 725px;
+    }
+
+    section.event {
+        grid-column: 1/6;
+        margin-left: 40px;
+        grid-row: 13/15;
+        height: 220px;
+        margin-top: 200px;
+    }
+
+    .weather{
+        grid-column: 6/9;
+        margin-left: -10px;
+        margin-bottom: 20px;
+        grid-row: 13/15;
+        height: 220px;
+        margin-top: 200px;
+    }
+
+    section.newsrelease {
+        grid-column: 1/9;
+        grid-row: 4/6;
+        height: 220px;
+    }
+
+    section.joinsection {
+        grid-column: 1/9;
+        grid-row: 10/12;
+        height: 220px;
+        width: 100%;
+        margin-top: 60px;
+        display: block;
+    }
+
+    .spotlights {
+        grid-column: 1/9;
+        grid-row: 7/9;
+        margin-bottom: 0px;
+        height: 220px;
+    }
+
+    .spotlights{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+.sp1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+.sp2{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .sp3{
+        display: none;
+}
+
+    .main-name {
+        font-size: 2.2em;
+        padding-top: 5px;
+    }
+    .secondtitle {
+       margin-top: -50px; 
+       font-size: 1.3em;
+    }
+
+    img.fblogo {
+        width: 30%;
+        padding-top: 25px;
+        margin-right: -60px;
+    }
+    
+    img.linkedinlogo {
+        width: 30%;
+        padding-top: 25px;
+    }
+
+    .date {
+        font-size: 1.2em;
+        height: 40px;
+        padding-top: 15px;
+        width: 95%;
+    }
+    nav button {
+        margin: .2rem 2vw;
+        font-size: 3.8rem;
+        color: #011F26;
+    }
+
+
+    /* Footer styles */
+   footer {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .logo-image{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .logo-image > img {
+        width: 150%;
+    }
+    .name-address{
+        grid-column: 4/span 3;
+        grid-row: 1/2;
+        padding-top: 80px;
+        text-align: left;
+    }
+
+    .phone-email{
+        grid-column: 8/span 3;
+        grid-row: 1/2;
+        padding-top: 70px;
+        padding-right: 100px;
+    }
+
+    .copyright-row {
+        grid-column: 1/-1;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        }
+
+        p.copyright {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            margin-right: -200px;
+        }
+
+        p.name {
+            grid-column: 2/3;
+            grid-row: 1/2; 
+            margin-right: -150px;
+        }
+
+        p.myinfo {
+            grid-column: 3/4;
+            grid-row: 1/2;
+            margin-left: -90px;
+        }
+        p.last {
+            grid-column: 1/4;
+            margin-top: -50px;
+        }
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+   main {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   }
+
+   #hamburgerBtn {
+    display: none;
+   }
+
+   ul#navigation {
+display: inline;
+   }
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  h1.main-name {
+    padding-top: 60px;
+  }
+
+  h2.secondtitle{
+    margin-top: -120px;
+  }
+
+  img.linkedinlogo{
+    grid-column: 6/7;
+    margin-right: -200px;
+    width: 20%;
+    padding-top: 60px;
+  }
+
+  img.fblogo{
+    grid-column: 6/7;
+    margin-right: -370px;
+    width: 20%;
+    padding-top: 60px;
+  }
+
+    h3, a {
+        padding-left: 20px;
+    }
+
+    p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    section.event {
+        grid-column: 1/2;
+        grid-row:1/2;
+        height: 100%;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .weather{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        height: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .hero {
+        grid-column: 2/4;
+        grid-row: 1/3;
+        width: 90%;
+    }
+
+    .helenacitypic {
+        height: 520px;
+    }
+
+    .join {
+        font-size: 25px;
+        right: 460px;
+        bottom: 160px;
+    }
+
+
+h2.welcometext {
+    left: 470px;
+    bottom: 280px;
+    font-size: 3em;
+}
+
+    section.newsrelease {
+        grid-column: 2/4;
+        grid-row: 3/4;
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    section.joinsection {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 100%;
+    }
+
+    .spotlights {
+        grid-column: 4/5;
+        grid-row: 1/4;
+        height: 220px;
+        width: 100%;
+    }
+
+    .spotlights{
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+.sp1{
+        grid-row: 1/2;
+    }
+
+.sp2{
+        grid-row: 2/3;
+    }
+
+.sp3{
+        grid-row: 3/4;
+}
+
+.logo-image > img{
+width: 100%;
+margin-left: 20px;
+}
+
+.name-address{
+    grid-column: 3/6;
+    padding-top: 110px;
+    font-size: 1.4em;
+    padding-left: 40px;
+}
+
+.phone-email{
+    grid-column: 6/11;
+    font-size: 1.4em;
+    padding-top: 90px;
+}
+
+.copyright-row {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-size: 1.4em;
+    }
+
+    p.copyright {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-right: -200px;
+    }
+
+    p.name {
+        grid-column: 2/3;
+        grid-row: 1/2; 
+        margin-right: -150px;
+    }
+
+    p.myinfo {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        margin-left: -90px;
+    }
+    p.last {
+        grid-column: 4/5;
+        grid-row: 1/2;
+        margin-top: 12px;
+    }
+hr {
+    display: none;
+}
+
+footer{
+    height: 450px;
+    margin-top: 30px;
+}
+}
