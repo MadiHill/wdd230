@@ -462,7 +462,7 @@ section {
    }
 
    ul#navigation {
-display: inline;
+    display: inline;
    }
 
    ul {
@@ -486,25 +486,36 @@ display: inline;
   }
 
   h1.main-name {
-    padding-top: 60px;
+    padding-top: 25px;
+    font-size: 1.5em;
+    margin-left: -60px;
   }
 
   h2.secondtitle{
-    margin-top: -120px;
+    font-size: 1em;
+    margin-left: -60px;
   }
+
+  img.logotop {
+    width: 60%;
+  }
+
+  .date {
+    font-size: 1em;
+}
 
   img.linkedinlogo{
     grid-column: 6/7;
     margin-right: -200px;
-    width: 20%;
-    padding-top: 60px;
+    width: 15%;
+    padding-top: 30px;
   }
 
   img.fblogo{
     grid-column: 6/7;
     margin-right: -370px;
-    width: 20%;
-    padding-top: 60px;
+    width: 15%;
+    padding-top: 30px;
   }
 
     h3, a {
@@ -547,13 +558,13 @@ display: inline;
     .join {
         font-size: 25px;
         right: 460px;
-        bottom: 160px;
+        bottom: 260px;
     }
 
 
 h2.welcometext {
     left: 470px;
-    bottom: 280px;
+    bottom: 370px;
     font-size: 3em;
 }
 
@@ -595,21 +606,21 @@ h2.welcometext {
 }
 
 .logo-image > img{
-width: 100%;
+width: 60%;
 margin-left: 20px;
 }
 
 .name-address{
     grid-column: 3/6;
-    padding-top: 110px;
-    font-size: 1.4em;
+    padding-top: 50px;
+    font-size: 1em;
     padding-left: 40px;
 }
 
 .phone-email{
     grid-column: 6/11;
-    font-size: 1.4em;
-    padding-top: 90px;
+    font-size: 1em;
+    padding-top: 50px;
 }
 
 .copyright-row {
@@ -618,7 +629,7 @@ margin-left: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    font-size: 1.4em;
+    font-size: 1em;
     }
 
     p.copyright {
@@ -648,7 +659,7 @@ hr {
 }
 
 footer{
-    height: 450px;
+    height: 250px;
     margin-top: 30px;
 }
 }
