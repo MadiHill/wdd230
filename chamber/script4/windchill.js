@@ -1,12 +1,19 @@
-let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16)));
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=34.2309&lon=-111.3251&appid=4b2d2f87ca75eabca88cafcdf35e042a&units=imperial';
 
-const temp = document.querySelector('#temperature').textContent;
-const windspeed = document.querySelector('#ws').textContent;
+const getWeather = async () => {
 
-if (temp < 50 && windspeed > 3 ){
-    let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16)));
+    const response = await fetch(apiURL);
 
-    const windchill = document.querySelector('#ws');
+    const jsObject = await response.json();
 
-    windchill.innerHTML = chill + '';
-}
+    console.log(jsObject);
+
+  let temperature = jsObject.main.temp;
+  let windSpeed = jsObject.wind.speed;
+
+    document.querySelector('#temp').textContent = Math.round(jsObject.main.temp,0);
+    document.querySelector('#speed').textContent = jsObject.wind.speed;
+    document.querySelector('#chill').textContent = Math.round(35.74 + 0.6215 * temperature - 35.75 * windSpeed ** 0.16 + 0.4275 * temperature * windSpeed ** 0.16,2);
+  };
+
+getWeather();
